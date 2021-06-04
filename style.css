@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    width:100%;
+    min-height:10em;
+    height:auto;
+    background:#CCC;
+    margin-bottom: 5em;
+    padding:1em;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap:1em;
+}
+
+.inner {
+    width:100%;
+    height:auto;
+    padding:1em;
+    background:rebeccapurple;
+    color:white;
+}
+
+.green {
+    background:rgb(51, 153, 82);
+}
+
+.blue {
+    background: rgb(51, 92, 153);
+}
+
+
+.wrapper {
+    width:800px;
+    height:100vh;
+    margin: 0 auto;
+}
+
